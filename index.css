@@ -1,0 +1,113 @@
+*body{
+padding: 0px;
+margin: 0px;
+}
+.mainContainer{
+    display: flex;
+    /* justify-content: center;
+     */
+     text-align: center;
+    flex-direction: column;
+  border: 2px solid black;
+  width: 400px;
+  height: 650px;
+  margin: auto;
+  background-color:  #d1d496;
+}
+
+#input{
+    border: 2px solid black;
+    width: 261px;
+    height: 21px;
+    padding: 10px 12px;
+    margin: -3px 9px;
+    border-radius: 3px;
+    font-size: large;
+}
+.btn1{
+    width: 78px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 9px 4px;
+    margin: 14px 109px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: blanchedalmond;
+   
+}
+h3{
+    margin: 20px 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 166px;
+    margin: 25px 38px;
+    padding: 10px;
+    background-color: cyan;
+    border-radius: 5px;
+
+
+}
+.middlediv{
+      border: 2px solid black;
+      width: 322px;
+      /* height: 354px; */
+      height: auto;
+      margin: -13px 36px;
+      padding: 1px 1px;
+      background-color: cyan;
+      border-radius: 5px;
+
+}
+.show{
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: -16px;
+}
+li{
+    display: flex;
+    /* width: fit-content; */
+    /* margin: 10px 10px; */
+    /* padding: 0px 0px; */
+    /* justify-content: center; */
+    
+    font-family: 'Otomanopee One', sans-serif;
+    align-items: center;
+}
+span{
+   
+    margin: 0px 18px;
+   
+} 
+h2{
+    margin-left: -116px;
+}
+.nameList{
+    /* flex-basis:5; */
+    width: 227px;
+    font-size: 20px;
+    padding: 2px 18px;
+    margin: 8px 28px;
+}
+.btn2{
+    /* flex-basis: 2; */
+   
+
+    background-color: #f7914f;
+    width: 73px;
+    font-size: 14px;
+    padding: 7px 0px;
+    margin: 9px 4px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: blanchedalmond;
+}
