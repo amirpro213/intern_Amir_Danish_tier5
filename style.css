@@ -1,0 +1,25 @@
+.wrapper {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    overflow-x: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(31, 162, 250);
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+   /* background: none;*/
+    margin: 4px 4px;
+    padding: 2px 4px;
+    font-size: 20px;
+    border: none;
+}
+.btn:hover{
+    background: #9ea19e;
+    border-radius: 5px;
+}

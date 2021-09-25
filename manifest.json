@@ -1,0 +1,36 @@
+{
+    "name": "Post Editor",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Facebook TimeLine Post Text Editing Extension",
+  
+    "action": {
+    },
+    "icons": {
+      "100": "fb_icon64.png"
+    },
+    "permissions": [
+      "clipboardRead"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "*://*.facebook.com/*"
+    ],
+    "content_scripts": [
+      {
+        "css":[
+          "style.css"
+        ],
+        "js": [
+          "jquery-3.1.0.min.js", "arrive.js","content.js"
+        ],
+        "matches": [
+            "*://*.facebook.com/*"
+        ],
+        "run_at":"document_end"
+      }
+    ]
+  }
+  
